@@ -47,9 +47,9 @@ mongourl = 'MONGO_URI'
 client = pymongo.MongoClient(mongourl,serverSelectionTimeoutMS=5000)
 maindb = client.bot['main']
 
-antidb = redis.Redis(host='REDIS_URI', port=REDIS_PASS, password='REDIS_PASS')
+antidb = redis.Redis(host='redis-10106.c299.asia-northeast1-1.gce.cloud.redislabs.com:10106', port=JnlZFJkNapbGu6PhJ6VQzi1J5wVnntjQ, password='JnlZFJkNapbGu6PhJ6VQzi1J5wVnntjQ')
 
-BOT_USERNAME = 'BOT_USERNAME'
+BOT_USERNAME = 'tadanochk_bot'
 loggp = -735069168
 waste_cards = [1,2,7,8,9,0]
 banned_bins = open('files/bannedbin.txt', 'r').readlines()
